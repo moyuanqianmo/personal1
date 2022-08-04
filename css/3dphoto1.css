@@ -21,8 +21,6 @@ li{
 }
 .box{
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	width:200px;
 	height:200px;
 	background-size: cover;
@@ -30,8 +28,12 @@ li{
 	background-attachment: fixed;
 	background-size:100% 100%;
 	position: absolute;
-	margin-left: 42%;
-	margin-top: 22%;
+	
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 	-webkit-transform-style:preserve-3d;
 	-webkit-transform:rotateX(13deg);
 	-webkit-animation:move 5s linear infinite;

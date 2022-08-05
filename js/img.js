@@ -12,7 +12,7 @@ $(function () {
                 i++;
             }, 4000);
         } else {
-            $('.begin').html('<a href="Memories.html" style="text-decoration: none;color: #fff;background: pink;display: inline-block;padding: 10px;border: 2px solid #fff;">开启浪漫回忆</a>');
+            $('.begin').html('<a href="" style="text-decoration: none;color: #fff;background: pink;display: inline-block;padding: 10px;border: 2px solid #fff;pointer-events:none;">Happy Birthday</a>');
             $('.begin').fadeIn();
             return;
         }
